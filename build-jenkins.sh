@@ -2,6 +2,6 @@
 #
 set +e
 
-docker build -t jenkins-blueocean
+docker build -t jenkins-blueocean .
 
 set -e
